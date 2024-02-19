@@ -125,6 +125,11 @@ left: 100px;
       
     }
 
+    .button a{
+        color: white;
+        text-decoration: none;
+    }
+
     .rwan {
         background-image: url('Hero.png');
         background-repeat: no-repeat;
@@ -688,4 +693,96 @@ margin-left: 29px;
    .flex a{
     color: #304F47;
     text-decoration: none;
+   }
+
+
+   .buttn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 10vh;
+   }
+    
+   .btn{
+   display: flex;
+   width: 15vh;
+   height: 7vh;
+   align-items: center;
+   padding-left: 25px;
+   padding-right: 1px;
+   background-color: #C7923E;
+   border-radius: 8px;
+   outline: none;
+   border: none;
+   color: white;
+   font-family: Mulish;
+   font-size: 20px;
+   width: 23vh;
+   }
+
+   .btn a{
+    text-decoration: none;
+    color: white;
+   }
+
+
+   .box{
+    width: 100%;
+   }
+    
+    .photos{
+        display: flex;
+        width: 100%;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        padding: 70px;
+        
+    }
+    .dp{
+        width: 100%;
+    }
+
+    .dpfour{
+        width: 100%;
+    }
+
+    .imagethree{
+        width: 100%;
+    }
+    .dptwo{
+        display: flex;
+        gap: 10px;
+        width: 100%;
+        
+    }
+
+    .dpthree{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .dptwo img{
+     padding-top: 5px;
+    }
+
+    .imageone img{
+        width: 100%;
+        height: 100%;
+    }
+   .imagethree img{
+    
+    height: 94vh;
+   }
+
+   .imagefour img{
+    width: 100%;
+    height:63.7vh;
+    
+   }
+
+   .imagefive img{
+    width: 100%;
    }
